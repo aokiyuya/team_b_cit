@@ -99,7 +99,7 @@ def write_dialogue(string):
 
 
 def at_exit():
-    print("\nExit")
+    # print("\nExit")
     # send_command('exit')
     p.terminate()
     speak_stdin_proc.terminate()
@@ -165,7 +165,7 @@ def speak_read():
             speak_jtalk(read_lines.replace(';', '') + '\n')
             output('said')
             read_lines = ''
-        print(read_lines, end='')
+        # print(read_lines, end='')
 
 
 class MyActionBar():
