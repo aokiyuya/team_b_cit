@@ -1,4 +1,4 @@
-default: GUI_for_team_B.py al.png ipaexm.ttf
+default: GUI_for_team_B.py al.png ~/ipaexm.ttf
 	python GUI_for_team_B.py
 
 clean:
